@@ -1,0 +1,24 @@
+2024-08-12 19:56:54,467 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.id: add-to-cart-sauce-labs-backpack
+2024-08-12 19:56:54,822 [main] [INFO ] rootlogger:68:Commands.java -  Got the text message By.xpath: (//div[@data-test='inventory-item-name'])[1]
+2024-08-12 19:56:55,121 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //span[@class='shopping_cart_badge']
+2024-08-12 19:56:55,182 [main] [INFO ] rootlogger:68:Commands.java -  Got the text message By.xpath: //div[@data-test='inventory-item-name']
+2024-08-12 19:57:16,552 [main] [INFO ] rootlogger:143:Commands.java -  ARRAY LIST 
+2024-08-12 19:57:38,813 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='hilo']
+2024-08-12 20:09:47,723 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.id: add-to-cart-sauce-labs-backpack
+2024-08-12 20:13:24,063 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.id: add-to-cart-sauce-labs-backpack
+2024-08-12 20:18:05,582 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.id: add-to-cart-sauce-labs-backpack
+2024-08-13 12:18:40,729 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.id: add-to-cart-sauce-labs-backpack
+2024-08-13 12:22:44,215 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.id: add-to-cart-sauce-labs-backpack
+2024-08-13 12:27:28,739 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.id: add-to-cart-sauce-labs-backpack
+2024-08-13 12:27:28,876 [main] [INFO ] rootlogger:68:Commands.java -  Got the text message By.xpath: (//div[@data-test='inventory-item-name'])[1]
+2024-08-13 12:27:29,052 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //span[@class='shopping_cart_badge']
+2024-08-13 12:27:29,146 [main] [INFO ] rootlogger:68:Commands.java -  Got the text message By.xpath: //div[@data-test='inventory-item-name']
+2024-08-13 12:33:36,497 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.id: add-to-cart-sauce-labs-backpack
+2024-08-13 12:33:36,713 [main] [INFO ] rootlogger:68:Commands.java -  Got the text message By.xpath: (//div[@data-test='inventory-item-name'])[1]
+2024-08-13 12:33:36,888 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //span[@class='shopping_cart_badge']
+2024-08-13 12:33:36,942 [main] [INFO ] rootlogger:68:Commands.java -  Got the text message By.xpath: //div[@data-test='inventory-item-name']
+2024-08-13 12:34:11,438 [main] [INFO ] rootlogger:143:Commands.java -  ARRAY LIST 
+2024-08-13 12:45:50,347 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='za']
+2024-08-13 12:45:52,828 [main] [INFO ] rootlogger:143:Commands.java -  ARRAY LIST 
+2024-08-13 12:46:07,233 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='lohi']
+2024-08-13 12:46:20,175 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='hilo']
