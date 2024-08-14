@@ -95,6 +95,11 @@ public class Commands {
 		AssertJUnit.assertEquals(beforesorting,aftersorting);
 	}
 	
+	public void ValidationFloat(ArrayList<Float> beforesorting,ArrayList<Float> aftersorting)
+	{
+		AssertJUnit.assertEquals(beforesorting,aftersorting);
+	}
+	
 	public void Sorting()
 	{
 	try {
@@ -155,21 +160,24 @@ public class Commands {
 	}
 	// price low to high------
 	
-	public  ArrayList<String> price(){
+	public  ArrayList<Float> price(){
 		
 		List<WebElement> list = driver.findElements(By.xpath("//div[@class='inventory_list']//div[@class='inventory_item']"));
 		System.out.println(list.size());
-		ArrayList<String> pricelist=new ArrayList<String> ();
+	//	ArrayList<String> pricelist=new ArrayList<String> ();
+		ArrayList<Float> pricelist1 = new ArrayList<Float>();
 		String pricevalue;
 		
 		for(int i=1;i<=list.size();i++)
 		{
 			
 			pricevalue= driver.findElement(By.xpath("(//div[@class='inventory_item_price'])["+i+"]")).getText();
-			String pricevalue1= pricevalue.substring(1, 5);
-			pricelist.add(pricevalue1);
+			String pricevalue1= pricevalue.substring(1, 4);
+			float pricevalue2= Float.valueOf(pricevalue1);
+			
+			pricelist1.add(pricevalue2);
 		}
-		return pricelist;
+		return pricelist1;
 			
 	}
 		

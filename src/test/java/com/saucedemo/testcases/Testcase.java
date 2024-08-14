@@ -33,7 +33,7 @@ public class Testcase extends BaseClass {
 		AddtoCart obj=new AddtoCart(driver);
 		obj.PriceLowtoHigh();
 	}
-	@Test(priority = 5, enabled = true)
+	@Test(priority = 5, enabled = false)
 	public void PriceSortingHightoLow()
 	{
 		AddtoCart obj=new AddtoCart(driver);

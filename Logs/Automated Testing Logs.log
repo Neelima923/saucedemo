@@ -22,3 +22,14 @@
 2024-08-13 12:45:52,828 [main] [INFO ] rootlogger:143:Commands.java -  ARRAY LIST 
 2024-08-13 12:46:07,233 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='lohi']
 2024-08-13 12:46:20,175 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='hilo']
+2024-08-14 17:14:55,427 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='lohi']
+2024-08-14 17:15:31,584 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='hilo']
+2024-08-14 17:20:23,791 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='lohi']
+2024-08-14 17:20:38,867 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='hilo']
+2024-08-14 17:44:18,722 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='lohi']
+2024-08-14 17:44:33,047 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='hilo']
+2024-08-14 18:49:56,377 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='lohi']
+2024-08-14 18:50:46,627 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='hilo']
+2024-08-14 19:06:35,164 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='za']
+2024-08-14 19:06:41,116 [main] [INFO ] rootlogger:148:Commands.java -  ARRAY LIST 
+2024-08-14 19:07:11,310 [main] [INFO ] rootlogger:37:Commands.java - Click is passed : By.xpath: //select[@class='product_sort_container']//option[@value='lohi']

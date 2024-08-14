@@ -5,11 +5,12 @@
     <classes>
       <class name="com.saucedemo.testcases.Testcase">
         <methods>
-          <include name="AddtoCart2"/>
           <include name="EndExtent"/>
+          <include name="PriceSortingLowtoHigh"/>
           <include name="StartExtent"/>
           <include name="SetUp"/>
           <include name="tearDown"/>
+          <include name="PriceSortingHightoLow"/>
         </methods>
       </class> <!-- com.saucedemo.testcases.Testcase -->
     </classes>

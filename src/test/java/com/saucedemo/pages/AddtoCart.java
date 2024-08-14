@@ -23,7 +23,7 @@ public class AddtoCart extends Commands {
 		super(driver);	
 	}
 	public void AddtoCartQuantity() throws InterruptedException
-	{
+	{   
 		reportcls =new ExtentManager();
 		reportcls.CreateTest("ADD TO CART");
 		Click(Web_objects.addtocart);
@@ -33,7 +33,7 @@ public class AddtoCart extends Commands {
 	 reportcls.AddTestCaseSteps(" Name of Actual Product: " +actualresult);
 	 
 	    Click(Web_objects.addtocartxpath);
-	    
+	//    CaptureScreenShot(driver);
 	 String expectedresult = GetText(Web_objects.expectedname);
 	 reportcls.AddTestCaseSteps(" Name of Expected product: " +expectedresult);
 	    Validation(actualresult , expectedresult);
@@ -84,10 +84,10 @@ public class AddtoCart extends Commands {
 		
 		Click(Web_objects.dropdownforlowtohigh);
 		 reportcls.AddTestCaseSteps(" Selected the price low to high in the drop down ");
-		 ArrayList<String> pricebeforesorting = price(); 
+		 ArrayList<Float> pricebeforesorting = price(); 
 		 System.out.println("Price before sorting"+pricebeforesorting);
 		 reportcls.AddTestCaseSteps("Price before sorting : " +pricebeforesorting); 
-		 ArrayList<String> priceaftersorting = new ArrayList<String>();
+		 ArrayList<Float> priceaftersorting = new ArrayList<Float>();
 		 Collections.sort(pricebeforesorting);
 		  priceaftersorting=pricebeforesorting;
 		  System.out.println("After sorting" +priceaftersorting);
@@ -96,6 +96,7 @@ public class AddtoCart extends Commands {
 		  {
 			  System.out.println("SAME");
 		  }
+		  
 		  else
 		  {
 			  System.out.println("BUG");
@@ -109,15 +110,15 @@ public class AddtoCart extends Commands {
 		reportcls.CreateTest("PRODUCT NAMES IN DESCENDING ORDER");
 		Click(Web_objects.dropdownforhightolow);
 		reportcls.AddTestCaseSteps(" Selected the price high to low in the drop down ");
-		 ArrayList<String> pricebeforesorting = price();
+		 ArrayList<Float> pricebeforesorting = price();
 		System.out.println("Price before sorting"+pricebeforesorting);
 		reportcls.AddTestCaseSteps("Price before sorting : " +pricebeforesorting); 
-		 ArrayList<String> priceaftersorting = new ArrayList<String>();
+		 ArrayList<Float> priceaftersorting = new ArrayList<Float>();
 		 Collections.sort(pricebeforesorting, Collections.reverseOrder());
 	      priceaftersorting=pricebeforesorting;
 	      System.out.println("Before sorting" +pricebeforesorting);
 	      reportcls.AddTestCaseSteps("Price after sorting : " +priceaftersorting); 
-	      Validation1(pricebeforesorting, priceaftersorting);
+	      ValidationFloat(pricebeforesorting, priceaftersorting);
 	      reportcls.AddTestCaseSteps(" TEST CASE IS PASSED "); 
 	}
 	
